@@ -2,7 +2,7 @@ package com.example;
 
 public class Main {
     public static void main(String[] args) {
-        ContoCorrente c = new ContoCorrente("Mattia De Pace", 100.0);
+        ContoCorrente c = new ContoCorrente("Mario Rossi", 100.0);
         try{
             c.desposito(20.0);
             c.prelievo(30.0);
